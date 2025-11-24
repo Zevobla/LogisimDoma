@@ -1,9 +1,13 @@
 [package]
 name = "logisim-doma"
 version = "0.1.0"
-description = "A Tauri App"
-authors = ["you"]
+description = "A modern port of Logisim"
+repository = "https://github.com/zevobla/logisim-doma"
+authors = ["Zevobla <ghost-brake-your-home@protonmail.com>"]
 edition = "2021"
+license = "AGPL-3.0-only"
+license-file = "LICENSE"
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -22,4 +26,3 @@ tauri = { version = "2", features = [] }
 tauri-plugin-opener = "2"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
-
